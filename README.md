@@ -1,48 +1,55 @@
-# Tu Tiên Giới Offline — VMware Lite
+# Tu Tiên Giới Offline — VMware Easy2 RC2
 
-Bộ cài đầy đủ **Client + GameServer VMware + website MEL + Liones AI**, không dùng WSL2. Đây là **Lite RC1 gửi kiểm thử**, chưa gọi Final trên mọi cấu hình.
+**Bộ VMware mới thay thế VMware Lite RC1.** Client + GameServer + website MEL + Liones AI offline, không cần WSL2, Windows OpenSSH hoặc Shared Folders.
 
-## Tải bộ cài
+## Tải bộ cài mới
 
-**[Mở trang tải VMware Lite RC1](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/tag/v1.5.0-vmware-lite-rc1-20261017)**
+**[Tải VMware Easy2 RC2 tại đây](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/tag/v1.6.0-vmware-easy2-rc2-20261018)**
 
-Trong mục **Assets**, tải đủ **1 EXE và 7 BIN** dưới đây, để tất cả trong cùng một thư mục. Tổng bộ cài khoảng12 GiB. Không đổi tên file, không trộn BIN của bản cũ.
+Trong **Assets**, tải đủ **1 EXE + 8 BIN**, khoảng **13,81 GiB (14,83 GB)**. Giữ nguyên tên và để cả 9 file cùng thư mục. Không trộn BIN của VMware Lite hoặc RC1. **Source code (zip/tar.gz) không chứa bộ game để cài.**
 
-| File | Tải trực tiếp |
+| File cần tải | Liên kết |
 |---|---|
-| Bộ cài EXE | [CaiDat-TuTienGioi-VMware-Lite-RC1.exe](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1.exe) |
-| Dữ liệu1 | [RC1-1.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1-1.bin) |
-| Dữ liệu2 | [RC1-2.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1-2.bin) |
-| Dữ liệu3 | [RC1-3.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1-3.bin) |
-| Dữ liệu4 | [RC1-4.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1-4.bin) |
-| Dữ liệu5 | [RC1-5.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1-5.bin) |
-| Dữ liệu6 | [RC1-6.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1-6.bin) |
-| Dữ liệu7 | [RC1-7.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.5.0-vmware-lite-rc1-20261017/CaiDat-TuTienGioi-VMware-Lite-RC1-7.bin) |
+| Setup | [CaiDat-TuTienGioi-VMware-Easy2-RC2.exe](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2.exe) |
+| Dữ liệu 1 | [RC2-1.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-1.bin) |
+| Dữ liệu 2 | [RC2-2.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-2.bin) |
+| Dữ liệu 3 | [RC2-3.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-3.bin) |
+| Dữ liệu 4 | [RC2-4.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-4.bin) |
+| Dữ liệu 5 | [RC2-5.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-5.bin) |
+| Dữ liệu 6 | [RC2-6.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-6.bin) |
+| Dữ liệu 7 | [RC2-7.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-7.bin) |
+| Dữ liệu 8 | [RC2-8.bin](https://github.com/lionesthang45-jpg/tutiengioi-offline-vmware/releases/download/v1.6.0-vmware-easy2-rc2-20261018/CaiDat-TuTienGioi-VMware-Easy2-RC2-8.bin) |
 
-Tải thêm `BAT_DAU_O_DAY.txt`, `KIEM_THU.txt` và `ThirdPartyLicenses.zip`. Có checksum để kiểm file tải lỗi. **Không tải “Source code (zip)” để cài game**: đó chỉ là tài liệu kho GitHub, không chứa bộ game.
+Đọc `GUI_NGUOI_CHOI.txt`, `CHUAN_BI_VMWARE.txt` và `QA-KET_QUA.txt`. `DOWNLOAD_SHA256SUMS.txt` có SHA của tất cả file phát hành (trừ chính file checksum); `SHA256SUMS.txt` đối chiếu 9 file cài đặt. Bộ cài chưa có chữ ký số; checksum không thay thế xác thực nhà phát hành.
 
-## Cài và chơi
+## Cài một lần, sau đó Chơi ngay
 
-1. Máy cần Windows x64, VMware Workstation và ảo hóa BIOS. Windows cần **OpenSSH Client**: mở Settings, tìm Optional features, thêm OpenSSH Client nếu chưa có. Đây là công cụ để Launcher nối vào máy ảo, không phải tài khoản game.
-2. Tải đủ EXE+7BIN, chạy EXE, chọn **thư mục trống**. Payload mới cài khoảng18,64 GiB, còn tăng khi chơi; cần chừa thêm dung lượng cho bộ tải12 GiB và dữ liệu phát sinh.
-3. Mở **JxLTLauncher - VMware Lite** trên Desktop → **CHƠI NGAY**, chờ Server+AI sẵn sàng.
-4. Tài khoản mẫu **gm / 1**; có thể tạo tài khoản riêng bằng **MỞ WEBSITE**. Không bắt buộc mọi người cùng dùng tài khoản mẫu.
-5. Khi nghỉ: thoát Client → **DỪNG AN TOÀN** → đợi hoàn tất rồi mới tắt máy. Đóng Launcher không tự tắt Server.
+1. Windows 10/11 **x64**, bật ảo hóa CPU trong BIOS. Khuyến nghị RAM **12–16 GiB trở lên**. Máy ảo dùng **4 GiB RAM / 2 vCPU**. Máy 8 GiB có cảnh báo và chưa bảo đảm chạy đủ game + AI trên mọi cấu hình.
+2. Chạy EXE. Nếu chưa có VMware, bấm **TẢI VMWARE CHÍNH THỨC**, tự tải/cài Workstation Pro từ [Broadcom](https://knowledge.broadcom.com/external/article/368734/download-desktop-hypervisor-workstation.html), rồi quay lại **ĐÃ CÀI VMWARE — KIỂM TRA**. Không kèm bộ cài VMware trong bộ game.
+3. Máy đã có VMware/Jx khác: bấm **ĐÃ CÀI VMWARE — KIỂM TRA**. Setup kiểm tra thực tế, không chỉ ghi nhận nút bấm. Có thể tự khởi động dịch vụ VMware/bật đúng adapter cần thiết sau UAC, giữ nguyên các mạng/port forwarding của Jx khác.
+4. Chọn **thư mục trống**; không cài đè bản có nhân vật. Nội dung mới khoảng **20,03 GiB**, chưa tính bộ EXE/BIN và file RAM/dữ liệu tăng khi chơi. Nên chừa khoảng **40 GB trống** trên ổ cài game; có thể chọn ổ D/E/F.
+5. Giữ tùy chọn mở Launcher sau cài đặt: chương trình kiểm tra khởi động Linux, Tools, SSH, Server và AI thật. Chờ **HOÀN TẤT**, rồi **CHƠI NGAY**. Lần đầu có thể lâu; không bấm lặp.
+6. Tài khoản mẫu kiểm thử **gm / 1**. Website dùng quản lý nhân vật; thêm tên trên website **không** tạo tài khoản đăng nhập game.
+7. Khi nghỉ: thoát Client → **DỪNG AN TOÀN** → đợi hoàn tất → tắt Windows. Đóng Launcher không tự tắt Server.
 
-Không chạy đồng thời với GameServer WSL2/VMware khác. Bản này không yêu cầu xóa WSL hiện có và không tự xóa bộ game cũ. Liones có mô hình8B; CPU có thể phản hồi chậm hơn GPU. Không tự tắt firewall/Hyper-V/VBS để thử.
+BIOS, xác nhận UAC, khởi động lại Windows hoặc wizard sửa driver VMware cần chủ máy thực hiện. Nếu driver/cả hai mạng dùng chung bị hỏng cấu hình, không tự reset tất cả để làm hỏng các Jx khác; xem hướng dẫn chuẩn bị. Nếu phải chuẩn bị lại VMware, dùng `ChuanBi-VMware.cmd` hoặc nút trong Launcher, **không xóa/cài lại game**.
 
-## WinSCP và chỉnh file
+## Cổng, AI và WinSCP
 
-Trong Launcher mở **WINSCP / HƯỚNG DẪN SỬA FILE** sau khi Server chạy. Nó xác định IP hiện tại, user/root, cổng22, khóa riêng và dấu vân tay đúng máy ảo. **Không dùng IP trên ảnh của người khác hoặc mật khẩu root/123456**. Hướng dẫn có cách dùng SFTP/khóa và dừng game để chỉnh file khi giữ SSH.
-
-Không gửi private key `.ppk`, `Server_VMW/access/phase1_id`, database hay nhân vật lên GitHub/nhóm công khai. Sao lưu trước khi chỉnh file và giữ đúng bảng mã script.
+- Cổng mặc định bị chiếm: chọn cổng trống, đồng bộ Client/guest/website/AI. Bấm **MỞ WEBSITE** để vào đúng cổng; không ép `127.0.0.1:80`. Không kill ứng dụng khác hoặc xóa NAT để giành cổng.
+- Ưu tiên NAT/VMnet8 đang tốt, có thể tự chọn Host-only/VMnet1 phù hợp cho riêng VM của bản này. Không ép mọi máy về cùng IP và không tự Restore Defaults VMware.
+- AI mặc định **Tự động + qwen3:1.7b nhẹ**; có CPU/GPU và chuyển về CPU nếu GPU không dùng được. Model 8b tùy chọn cần nhiều RAM hơn, chưa chạy lại end-to-end cho RC2. Tốc độ tùy máy.
+- **WINSCP / SỬA FILE** mở thông tin kết nối riêng: IP hiện tại, root, cổng, khóa và thư mục server. Chỉ cần Linux chạy, không cần GameServer/AI chạy. WinSCP cài riêng từ [trang chính thức](https://winscp.net/eng/download.php).
+- Người chơi có quyền root chỉnh server; không thêm DRM/kích hoạt online. Dừng server và sao lưu trước khi sửa. Không dùng IP/mật khẩu trên ảnh của người khác, không chia sẻ private key/profile/database lên nhóm hoặc GitHub.
 
 ## Người đã có bản cũ
 
-Đây là bộ cài sạch riêng, **không tự chuyển nhân vật cũ**. Giữ nguyên game cũ nếu cần nhân vật; không cài đè hoặc xóa VMDK cũ để giải phóng chỗ. Sau khi bản mới chạy đạt, chỉ xóa bộ EXE/BIN đã tải nếu muốn lấy lại dung lượng, hoặc chuyển bộ tải ra ổ ngoài. Không xóa thư mục game đã cài.
+RC2 là **bộ cài mới riêng**, chưa tự chuyển nhân vật từ VMware Lite/WSL2. **Giữ nguyên bản cũ nếu cần nhân vật**, không cài đè, không xóa VMDK/JSON để thử lại. VMware Lite RC1 đã được thay thế cho lượt tải/cài mới; bản cũ trong lịch sử chỉ để đối chiếu/dự phòng, không trộn file với RC2.
 
-## Phạm vi kiểm thử và báo lỗi
+## Phạm vi nghiệm thu
 
-Đã kiểm thử cài mới trong đường dẫn có dấu, đủ SHA8.474file, active loop, AI/IPC/knowledge, website MEL, SSH, Start lặp và Stop sạch trên máy dựng. **Chưa nghiệm thu đăng nhập/đi map/chơi trên mọi máy người dùng của bản Lite này.** Đọc `KIEM_THU.txt` để thử nhân vật, map/chat/F3/TốngKim/thú cưỡi và đăng nhập lại.
+**RC2, chưa phải Final cho mọi máy.** Đã kiểm trên máy dựng bằng đúng EXE/BIN cuối: 8.471 SHA payload, cấm cài đè, đường dẫn có dấu/khoảng trắng/ngoặc, cổng bị chiếm, CPU fallback thật, native heartbeat/probe/map, WinSCP.com thật, di chuyển giữ identity/key, dừng qua Tools khi thiếu khóa SSH, và mạng VMware dùng chung không đổi. Nút xác nhận VMware đã bấm thử trên Setup thật. 26 tình huống chuẩn bị là **mô phỏng**, không phải 26 máy vật lý; bộ thực thi tự sửa được thử với các thao tác OS mô phỏng, không cố tình phá mạng máy dựng.
 
-Nếu gặp lỗi: gửi thông báo, bước thao tác, cấu hình Windows/VMware và log đã loại thông tin riêng tư. Không xóa WSL/VM/database hoặc force power off để thử. Kho này chỉ chứa tài liệu và bộ phát hành đã đóng gói; không chứa nguồn game, dữ liệu QA hay khóa máy người dựng. Giấy phép thành phần bên thứ ba nằm trong fileZIP đi kèm.
+Còn cần nhóm test xác nhận đăng nhập/tạo nhân vật/relogin, chat/F3/Tống Kim/map/thú cưỡi và thao tác Launcher/WinSCP trên desktop. Nếu lỗi, dùng **GÓI HỖ TRỢ** và gửi ZIP mới cho người hỗ trợ tin cậy. Không Power Off/Reset hoặc xóa database để thử.
+
+Kho này chỉ chứa tài liệu và các gói đã niêm phong; không đăng dữ liệu QA đang chơi, private key hoặc profile của máy dựng. Thông báo/giấy phép thành phần nằm trong bộ cài và `ThirdPartyLicenses.zip`.
